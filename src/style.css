@@ -1176,14 +1176,7 @@ h2 {
 } 
 
 .decor-arc {
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    border-radius: 50%;
-    border: 2px dashed rgba(251, 124, 211, 0.5);
-    top: -10%;
-    left: -10%;
-    animation: rotate 10s linear infinite;
+    display: none;
 }
 
 @keyframes rotate {
